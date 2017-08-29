@@ -1,0 +1,27 @@
+{
+  "name": "freertc",
+  "version": "1.0.0",
+  "description": "Video Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nasev/freertc.git"
+  },
+  "author": "Dr. Nasev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nasev/freertc/issues"
+  },
+  "homepage": "https://github.com/Nasev/freertc#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3",
+    "sqlite3": "^3.1.9"
+  },
+  "engines": {
+    "node": "6.11.2"
+  }
+}
